@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class MEYVESEBZE {
+public class MANAVKASA {
     public static void main(String[] args) {
         double Armut = 2.14;
         double Elma = 3.67;
