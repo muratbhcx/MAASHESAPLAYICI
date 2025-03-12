@@ -1,4 +1,4 @@
-package HaftalıkTeknikİcerik2;
+package Hafta_1.Haftalik_Teknik_İcerik_2;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package org.example;
+package Hafta_1.Haftalik_Teknik_İcerik_1;
 
 import java.util.Scanner;
 
