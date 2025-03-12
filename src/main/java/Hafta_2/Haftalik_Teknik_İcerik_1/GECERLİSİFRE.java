@@ -7,7 +7,7 @@ public class GECERLİSİFRE {
         if (password.length() < 8 ) return false;
         if (password.contains(" ")) return false;
         if (!Character.isUpperCase(password.charAt(0))) return false;
-        if (password.charAt(password.length() - 1) !='?');
+        if (password.charAt(password.length() - 1) !='?') return false;
         return true;
     }
 
