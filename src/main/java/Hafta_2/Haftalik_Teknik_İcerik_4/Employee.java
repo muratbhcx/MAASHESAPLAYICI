@@ -54,7 +54,6 @@ public class Employee {
         return 0;
     }
 
-    @Override
     public String toString() {
         return  "Adı : " + name + "\n" +
                 "Maaşı : " + salary + " TL" +"\n" +
