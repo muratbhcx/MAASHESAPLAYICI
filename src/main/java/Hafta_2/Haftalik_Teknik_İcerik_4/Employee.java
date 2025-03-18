@@ -18,7 +18,7 @@ public class Employee {
         int workHours = scanner.nextInt();
         System.out.println("İşe Başladığınız Yılı Giriniz : ");
         int hireYear = scanner.nextInt();
-        Employee employee = new Employee(name, salary, workHours, hireYear);
+        Hafta_2.Haftalik_Teknik_İcerik_4.Employee employee = new Hafta_2.Haftalik_Teknik_İcerik_4.Employee(name, salary, workHours, hireYear);
         System.out.println(employee);
     }
 
@@ -31,7 +31,7 @@ public class Employee {
 
     public int tax() {
         if (salary > 1000 ){
-           return (salary * 3) / 100;
+            return (salary * 3) / 100;
         }
         return 0;
     }
